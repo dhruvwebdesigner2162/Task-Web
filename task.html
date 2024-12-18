@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <style>
+        /* .search-box {
+            margin-left: 28px;
+        }
+
+        @media(max-width: 991px) {
+            .search-box {
+                margin: 0;
+            }
+        } */
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .banner-porsen {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://t4.ftcdn.net/jpg/04/66/25/33/360_F_466253361_c4fAjCqVZD4L2boH8vfqjUbUYk0wLcP7.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100% 110%;
+        }
+
+        body {
+            background-color: #000C29;
+        }
+
+        .card {
+            background-color: transparent;
+            color: white;
+            border: 1px solid rgba(192, 192, 192, 0.26);
+        }
+
+        .scrolling-button {
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <a href="#" class="text-decoration-none scrolling-button px-4 py-3 rounded-circle bg-primary text-white h4 m-0"
+        id="tb">
+        A
+    </a>
+
+
+    <div class="header" id="header">
+        <nav class="navbar navbar-expand-lg" style="background-color: #000;">
+            <div class="container">
+                <a href="#" class="text-decoration-none h2 text-white me-5">
+                    Logo
+                </a>
+
+                <button type="menu" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <i class="fa fa-bars-staggered text-white"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu">
+                    <div class="serach-box">
+                        <form action="">
+                            <div class="input-group">
+                                <input type="search" placeholder="Search bar..." class="form-control">
+                                <button type="search" class="input-group-text">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <ul class="nav navbar-nav ms-auto">
+                        <li class="nav-item"><a href="#" class="nav-link text-white">Home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-white">Categories</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-white">Product</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-white">Contact</a></li>
+                    </ul>
+
+                    <div class="icons d-flex">
+                        <a href="#" class="nav-link mx-3">
+                            <i class="fa-solid fa-user text-white"></i>
+                        </a>
+
+                        <a href="#" class="nav-link">
+                            <i class="fa-solid fa-cart-shopping text-white"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="banner-porsen py-5">
+        <div class="container my-5 py-5">
+            <h1 class="text-white text-center display-4 fw-semibold mb-3">
+                Ecommerce Tag Line
+            </h1>
+
+            <p class="text-center">
+                <span class="text-white ">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Libero accusamus quidem, magnam ipsa
+                    non
+                    sed dignissimos, <br> quam illo eius dolorem ea, veniam odit corporis.
+                </span>
+            </p>
+
+            <div class="button text-center">
+                <button type="button" class="btn btn-primary rounded-pill px-4">
+                    View More
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="shop-by-catagories-porsen py-5" style="background-color: #000A24;">
+        <div class="container py-4">
+            <div class="title-button d-flex justify-content-between mb-5">
+                <div class="title">
+                    <h1 class="text-white fw-bold mb-3">Shop By Categories</h1>
+                </div>
+
+                <div class="button">
+                    <button type="button" class="btn btn-primary rounded-pill px-4"> View More</button>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-2 col-sm-6 text-center">
+                    <a href="#" class="text-decoration-none">
+                        <img src="images/living-L1-22Oct2024-removebg-preview.png" class="img-fluid" alt="">
+                        <p class="text-white mt-2 fw-semibold">
+                            Living Room
+                        </p>
+                    </a>
+                </div>
+
+                <div class="col-md-2 col-sm-6 text-center">
+                    <a href="#" class="text-decoration-none">
+                        <img src="images/bedroom-L1-22Oct2024-removebg-preview.png" class="img-fluid" alt="">
+                        <p class="text-white mt-2 fw-semibold">
+                            Bed Room
+                        </p>
+                    </a>
+                </div>
+
+                <div class="col-md-2 col-sm-6 text-center">
+                    <a href="#" class="text-decoration-none">
+                        <img src="images/dining-L1-22Oct2024-removebg-preview.png" class="img-fluid" alt="">
+                        <p class="text-white mt-2 fw-semibold">
+                            Dining Room
+                        </p>
+                    </a>
+                </div>
+
+                <div class="col-md-2 col-sm-6 text-center">
+                    <a href="#" class="text-decoration-none">
+                        <img src="images/decor-L1-22Oct2024-removebg-preview.png" class="img-fluid" alt="">
+                        <p class="text-white mt-2 fw-semibold">
+                            Decor
+                        </p>
+                    </a>
+                </div>
+
+                <div class="col-md-2 col-sm-6 text-center">
+                    <a href="#" class="text-decoration-none">
+                        <img src="images/furnishing-L1-22Oct2024-removebg-preview.png" class="img-fluid" alt="">
+                        <p class="text-white mt-2 fw-semibold">
+                            Furnishing
+                        </p>
+                    </a>
+                </div>
+
+                <div class="col-md-2 col-sm-6 text-center">
+                    <a href="#" class="text-decoration-none">
+                        <img src="images/kitchen-L1-22Oct2024-removebg-preview.png" class="img-fluid" alt="">
+                        <p class="text-white mt-2 fw-semibold">
+                            Kitchen
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="products-porsen py-5">
+        <div class="container my-5 py-4">
+            <div class="title">
+                <h1 class="text-center text-white mb-3">Products</h1>
+            </div>
+
+            <div class="products">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6 my-3">
+                        <div class="card overflow-hidden">
+                            <img src="https://media.landmarkshops.in/cdn-cgi/image/h=345,w=345,q=85,fit=cover/homecentre/1000013850083-1000013850082_01-2100.jpg"
+                                alt="">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Sofa</h5>
+                                <p class="card-text">
+                                    ₹ 94,999 <span class="text-decoration-line-through text-secondary">₹ 110,749</span>
+                                </p>
+
+                                <button class="btn btn-primary px-3">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 my-3">
+                        <div class="card overflow-hidden">
+                            <img src="https://media.landmarkshops.in/cdn-cgi/image/h=345,w=345,q=85,fit=cover/homecentre/1000013850083-1000013850082_01-2100.jpg"
+                                alt="">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Sofa</h5>
+                                <p class="card-text">
+                                    ₹ 94,999 <span class="text-decoration-line-through text-secondary">₹ 110,749</span>
+                                </p>
+
+                                <button class="btn btn-primary px-3">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 my-3">
+                        <div class="card overflow-hidden">
+                            <img src="images/b-1.jpg" alt="">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Bad Room</h5>
+                                <p class="card-text">
+                                    ₹ 94,999 <span class="text-decoration-line-through text-secondary">₹ 110,749</span>
+                                </p>
+
+                                <button class="btn btn-primary px-3">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 my-3">
+                        <div class="card overflow-hidden">
+                            <img src="images/b-2.jpg" alt="">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Bad Room</h5>
+                                <p class="card-text">
+                                    ₹ 94,999 <span class="text-decoration-line-through text-secondary">₹ 110,749</span>
+                                </p>
+
+                                <button class="btn btn-primary px-3">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 my-3">
+                        <div class="card overflow-hidden">
+                            <img src="images/dr-1.jpg" alt="">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Sofa</h5>
+                                <p class="card-text">
+                                    ₹ 94,999 <span class="text-decoration-line-through text-secondary">₹ 110,749</span>
+                                </p>
+
+                                <button class="btn btn-primary px-3">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 my-3">
+                        <div class="card overflow-hidden">
+                            <img src="images/dr-2.jpg" alt="">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Sofa</h5>
+                                <p class="card-text">
+                                    ₹ 94,999 <span class="text-decoration-line-through text-secondary">₹ 110,749</span>
+                                </p>
+
+                                <button class="btn btn-primary px-3">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 my-3">
+                        <div class="card overflow-hidden">
+                            <img src="images/d-1.jpg" alt="">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Sofa</h5>
+                                <p class="card-text">
+                                    ₹ 94,999 <span class="text-decoration-line-through text-secondary">₹ 110,749</span>
+                                </p>
+
+                                <button class="btn btn-primary px-3">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 my-3">
+                        <div class="card overflow-hidden">
+                            <img src="images/d-1.jpg" alt="">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Sofa</h5>
+                                <p class="card-text">
+                                    ₹ 94,999 <span class="text-decoration-line-through text-secondary">₹ 110,749</span>
+                                </p>
+
+                                <button class="btn btn-primary px-3">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 my-3">
+                        <div class="card overflow-hidden">
+                            <img src="images/furnishing-1.jpg" alt="">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Sofa</h5>
+                                <p class="card-text">
+                                    ₹ 94,999 <span class="text-decoration-line-through text-secondary">₹ 110,749</span>
+                                </p>
+
+                                <button class="btn btn-primary px-3">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 my-3">
+                        <div class="card overflow-hidden">
+                            <img src="images/furnishing-2.jpg" alt="">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Sofa</h5>
+                                <p class="card-text">
+                                    ₹ 94,999 <span class="text-decoration-line-through text-secondary">₹ 110,749</span>
+                                </p>
+
+                                <button class="btn btn-primary px-3">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 my-3">
+                        <div class="card overflow-hidden">
+                            <img src="images/k-1.jpg" alt="">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Sofa</h5>
+                                <p class="card-text">
+                                    ₹ 94,999 <span class="text-decoration-line-through text-secondary">₹ 110,749</span>
+                                </p>
+
+                                <button class="btn btn-primary px-3">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 my-3">
+                        <div class="card overflow-hidden">
+                            <img src="images/k-2.jpg" alt="">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Sofa</h5>
+                                <p class="card-text">
+                                    ₹ 94,999 <span class="text-decoration-line-through text-secondary">₹ 110,749</span>
+                                </p>
+
+                                <button class="btn btn-primary px-3">
+                                    Add To Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer p-5 text-center text-white h2 border-top" style="background-color: #000A24;">
+        Footer
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+        $(window).on("scroll", function () {
+            if ($(this).scrollTop() > 100) {
+                $("#tb").show(500);
+            }
+            else {
+                $("#tb").hide(500);
+            }
+        })
+    </script>
+</body>
+
+</html>
